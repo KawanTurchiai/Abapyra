@@ -67,12 +67,8 @@ nav {
     transition: color .2s;
 }
 
-.nav-links a.active {
-    color: #4ade80;
-}
-
 .nav-links a:hover {
-    color: #fff;
+    color: var(--laranja-claro);
 }
 
 .nav-actions {
@@ -111,6 +107,8 @@ nav {
     background: #22c55e;
     color: #fff;
 }
+
+
 
 /* Div Nosso Impacto */
 
