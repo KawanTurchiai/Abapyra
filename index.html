@@ -1,30 +1,62 @@
 <!DOCTYPE html>
 <html lang="PT-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abapyra</title>
-    <link rel="stylesheet" href="./css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abapyra</title>
+  <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
 
-    <header id="header"></header>
-
-    
-    <div>espaço</div>
+  <header id="header"></header>
 
 
+  <div>espaço</div>
 
-    <div class="Impacto">
+
+
+  <section class="Impacto">
+    <div class="textoImpacto">
       <h2>Nosso impacto</h2>
       <h5>Contribuindo para um futuro mais sustentável e inclusivo</h5>
-      <div class="Itens">
-        
+    </div>
+    <div class="itens">
+
+      <div class="conteudoImpacto">
+        <div class="card">
+          <img src="./Imagens/Icone Reparo.png" alt="">
+          <h2>1,250+</h2>
+          <h4>Equipamentos Reparados</h4>
+        </div>
+
+        <div class="card">
+          <img src="./Imagens/Icone Reutilizado.png" alt="">
+          <h2>850+</h2>
+          <h4>Equipamentos Reparados</h2>
+        </div>
+
+        <div class="card">
+          <img src="./Imagens/Icone estudantes.png" alt="">
+          <h2>2,100+</h2>
+          <h4>Equipamentos Reparados</h2>
+        </div>
+
+        <div class="card">
+          <img src="./Imagens/Icone lixo eletronico.png" alt="">
+          <h2>5.2 ton</h2>
+          <h4>Equipamentos Reparados</h2>
+        </div>
       </div>
     </div>
-    <footer id="footer"></footer>
 
-    <script>
+  </section>
+
+
+  <footer id="footer"></footer>
+
+  <script>
     // Carrega header e footer automaticamente
     fetch('includes/header.html')
       .then(response => response.text())
@@ -35,4 +67,5 @@
       .then(data => document.getElementById('footer').innerHTML = data);
   </script>
 </body>
+
 </html>
